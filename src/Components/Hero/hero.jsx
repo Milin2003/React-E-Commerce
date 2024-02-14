@@ -6,7 +6,7 @@ import Hero_Image from '../assets/Hero.png';
 const Hero = () => {
     return (
         <div className='bg-gradient-to-t from-purple-50 to-purple-200 py-10'>
-            <div className='container mx-auto flex  '>
+            <div className='container mx-auto flex px-20 '>
                 <div className='flex-1 flex flex-col justify-center'>
                     <p className='text-4xl font-semibold mb-5'>NEW ARRAIVALS ONLY</p>
                     <div>
@@ -18,7 +18,6 @@ const Hero = () => {
                         <p className='text-7xl font-bold leading-tight mb-8'>For Everyone</p>
                         <div className='inline-block px-8 py-4 bg-red-500 rounded-full'>
                             <button className='flex items-center text-xl text-white'>Latest Collection <img className='ml-4' src={Arrow_Icon} alt="" /></button>
-                            
                         </div>
                     </div>
                 </div>
