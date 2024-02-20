@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [menu,setMenu] = useState('shop');
   return (
-    <div>
+    <div className='lg:block hidden'>
         <nav className='flex items-center justify-around py-6 shadow-lg z-50'>
             <div className='flex items-center'>
                 <img src={Logo} alt="" />
