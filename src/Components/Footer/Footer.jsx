@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={Footer_Logo} alt="" />
             <p className='ml-3 text-gray-700'>SHOPPER</p>
         </div>
-        <div className='flex gap-8 mb-10 '>
+        <div className='flex gap-8 sm:gap-5 mb-10 '>
             <a href="#">Company</a>
             <a href="#">Product</a>
             <a href="#">Office</a>
